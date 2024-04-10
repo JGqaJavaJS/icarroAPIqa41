@@ -1,5 +1,6 @@
 package tests;
 
+import api.CarsAPI;
 import api.UserAPI;
 import dto.UserDTO;
 import io.restassured.response.Response;
@@ -8,6 +9,7 @@ import org.testng.annotations.BeforeSuite;
 public class BaseTest {
 
     UserAPI userAPI = new UserAPI();
+    CarsAPI carsAPI = new CarsAPI();
 
     UserDTO user = new UserDTO()
             .withUsername("qa42@mail.com")
