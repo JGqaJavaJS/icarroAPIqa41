@@ -20,6 +20,7 @@ public class BaseTest {
     @BeforeSuite
     public void getToken() {
         Response response = userAPI.getResponseLoginUser(user);
+        System.out.println(response.getStatusCode());
         token = userAPI.getTokenFromResponse(response);
         System.out.println(token);
     }
