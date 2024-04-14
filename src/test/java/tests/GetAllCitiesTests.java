@@ -15,16 +15,18 @@ public class GetAllCitiesTests extends BaseTest{
        // System.out.println(Optional.ofNullable((carsAPI.getAllCities().path("cities"))));
 
         CitiesDTO citiesDTO = carsAPI.getAllCities().as(CitiesDTO.class);
-        List<CityInfoDTO> infoCities = citiesDTO.getCities();
-
-        List<String> citiesAll = new ArrayList<>();
-        for(CityInfoDTO info: infoCities) {
-            //System.out.println(info.getCity());
-            citiesAll.add(info.getCity());
-        }
+        CityInfoDTO cityInfoDTO = new CityInfoDTO();
+        List<String> citiesAll = cityInfoDTO.getAllCities(citiesDTO);
+//        List<CityInfoDTO> infoCities = citiesDTO.getCities();
+//
+//        List<String> citiesAll = new ArrayList<>();
+//        for(CityInfoDTO info: infoCities) {
+//            //System.out.println(info.getCity());
+//            citiesAll.add(info.getCity());
+//        }
 // get length ; Random get random index from zero t length
         // get city by index
-        System.out.println(citiesAll.get(5));
+        System.out.println(citiesAll.get(7));
         Assert.assertTrue(!citiesAll.isEmpty());
     }
 }

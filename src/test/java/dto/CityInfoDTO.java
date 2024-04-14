@@ -1,5 +1,8 @@
 package dto;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class CityInfoDTO {
 
           String city;
@@ -37,5 +40,14 @@ public class CityInfoDTO {
 
     public void setLng(Double lng) {
         this.lng = lng;
+    }
+
+    public List<String> getAllCities(CitiesDTO citiesDTO) {
+        List<CityInfoDTO> infoCities = citiesDTO.getCities();
+        List<String> citiesAll = new ArrayList<>();
+        for(CityInfoDTO info: infoCities) {
+            citiesAll.add(info.getCity());
+        }
+        return citiesAll;
     }
 }
