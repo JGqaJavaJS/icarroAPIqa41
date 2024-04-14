@@ -1,6 +1,10 @@
 package dto;
 
+import java.util.List;
+
 public class CitiesDTO {
+
+    List<CityInfoDTO> cities;
     /*
     {
   "cities": [
@@ -12,4 +16,19 @@ public class CitiesDTO {
   ]
 }
      */
+
+    public CitiesDTO(List<CityInfoDTO> cities) {
+        this.cities = cities;
+    }
+
+    public CitiesDTO() {
+    }
+
+    public List<CityInfoDTO> getCities() {
+        return cities;
+    }
+
+    public void setCities(List<CityInfoDTO> cities) {
+        this.cities = cities;
+    }
 }
