@@ -4,7 +4,7 @@ public class CityInfoDTO {
 
           String city;
           Double lat;
-            Double lng;
+          Double lng;
 
     public CityInfoDTO() {
     }

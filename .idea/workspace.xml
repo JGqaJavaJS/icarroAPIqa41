@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="121e482c-ddfd-4716-963a-dd474481b8b9" name="Changes" comment="upd">
-      <change afterPath="$PROJECT_DIR$/src/test/java/dto/CityInfoDTO.java" afterDir="false" />
+    <list default="true" id="121e482c-ddfd-4716-963a-dd474481b8b9" name="Changes" comment="DTO for cities">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/dto/CitiesDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dto/CitiesDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddNewCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddNewCarTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/dto/CityInfoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/dto/CityInfoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddNewCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/GetAllCitiesTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;TestNG.AddNewCarTests.test.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/julia/Documents/java/qa41/icarroAPIqa41&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.AddNewCarTests.test.executor": "Run",
+    "TestNG.GetAllCitiesTests.test.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/julia/Documents/java/qa41/icarroAPIqa41"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="AddNewCarTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GetAllCitiesTests.test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="icarroAPIqa41" />
       <extension name="coverage">
         <pattern>
@@ -56,7 +58,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.AddNewCarTests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GetAllCitiesTests" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -67,7 +69,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AddNewCarTests.test" />
+        <item itemvalue="TestNG.GetAllCitiesTests.test" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712768272734</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="DTO for cities">
+      <option name="closed" value="true" />
+      <created>1713105124262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713105124262</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,6 +137,7 @@
     <MESSAGE value="add login api" />
     <MESSAGE value="add get cities api" />
     <MESSAGE value="upd" />
-    <option name="LAST_COMMIT_MESSAGE" value="upd" />
+    <MESSAGE value="DTO for cities" />
+    <option name="LAST_COMMIT_MESSAGE" value="DTO for cities" />
   </component>
 </project>

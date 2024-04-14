@@ -15,6 +15,21 @@ public class CitiesDTO {
     }
   ]
 }
+
+
+-----------------
+JOSNbody.f -> m
+
+{
+"f":"m",
+"L":"s",
+"array": [
+        "f":"m",
+        "L":"s";    JSONbody.array[0].L -> s
+        "f":"m",
+        "L":"s"
+        ]
+}
      */
 
     public CitiesDTO(List<CityInfoDTO> cities) {
